@@ -30,9 +30,9 @@ export const useCreateMint = () => {
         createInitializeMintInstruction(mint.publicKey, 0, publicKey!, publicKey, TOKEN_PROGRAM_ID),
       )
 
-      const singuare = await sendTransaction(transaction, connection, { signers: [mint] })
+      const signuare = await sendTransaction(transaction, connection, { signers: [mint] })
 
-      return { mint: mint.publicKey.toString(), singuare }
+      return { mint: mint.publicKey.toString(), signuare }
     },
     {
       manual: true,

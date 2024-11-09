@@ -3,7 +3,7 @@ import { Layout } from './Layout'
 
 export const Main = () => {
   return (
-    <div className="layout flex flex-col">
+    <div className="layout flex flex-col h-full">
       <nav className="bg-black">
         <div className="flex mx-auto px-4">
           <div className="flex flex-shrink-0 items-center">

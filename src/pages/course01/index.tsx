@@ -18,6 +18,7 @@ export const Course01 = () => {
     <div className="">
       <div className="flex justify-center">
         <Form
+          layout="vertical"
           name="basic"
           style={{ width: 640 }}
           labelCol={{ span: 8 }}
